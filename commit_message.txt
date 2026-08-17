@@ -1,0 +1,7 @@
+camera: add camera module, config, and capture/tests
+
+- Implement camera initialization, configuration params (resolution, framerate), and capture loop.
+- Add JPEG encoder integration, buffering, and safe disk-write routine.
+- Improve error handling and logging for device/connectivity issues.
+- Add basic unit tests for encoder and example usage in README.
+- Notes: may need device-specific permissions on target hardware.
